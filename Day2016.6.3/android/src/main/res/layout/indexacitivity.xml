@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#53ff53"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnmain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#2828ff"
+                android:text="切换到MainAcitivity" />
+
+            <Button
+                android:id="@+id/btnsecondAcitivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f00078"
+                android:text="切换到SecondAcitivity" />
+            <Button
+                android:id="@+id/btnacitivitycyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="切换AcitivityCyle"
+                android:background="#006200"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnacptureActivity"
+                android:text="切换到CapturaActivity"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:background="#272727"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnbroadcast"
+                android:text="切换到BroadcastActivity"
+                android:textSize="25dp"
+                android:background="#2894ff"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnbroadcasts"
+                android:text="电话监听"
+                android:textSize="25sp"
+                android:background="#555555"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnactivityreigster"
+                android:text="切换动态广播接收"
+                android:background="#ffd0ff"/>
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="切换....." />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Day2016.6.3.iml" filepath="$PROJECT_DIR$/Day2016.6.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/android.iml" filepath="$PROJECT_DIR$/android/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android_one/android_one.iml" filepath="$PROJECT_DIR$/android_one/android_one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidlistview/androidlistview.iml" filepath="$PROJECT_DIR$/androidlistview/androidlistview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listview/listview.iml" filepath="$PROJECT_DIR$/listview/listview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msqlandroid/msqlandroid.iml" filepath="$PROJECT_DIR$/msqlandroid/msqlandroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mysqlupdate/mysqlupdate.iml" filepath="$PROJECT_DIR$/mysqlupdate/mysqlupdate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/startservice/startservice.iml" filepath="$PROJECT_DIR$/startservice/startservice.iml" />
+    </modules>
+  </component>
+</project>

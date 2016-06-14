@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:background="#ff9797"
+        android:id="@+id/btnmain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="切换到mianActivity" />
+
+    <Button
+        android:id="@+id/btnlist"
+        android:background="#005ab5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="切换到ListView" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnlistview"
+        android:background="#46a3ff"
+        android:text="切换到lIstview"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnarry"
+        android:background="#1afd9c"
+        android:text="切换到arrayadapter"/>
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btnsimpler"
+        android:text="切换到simpleaadapter"
+        android:background="#555555"
+        android:layout_height="wrap_content" />
+</LinearLayout>

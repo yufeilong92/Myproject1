@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动绑定的Service" />
+
+    <Button
+        android:id="@+id/btnid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动服务" />
+
+    <Button
+
+        android:id="@+id/btnid1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停止服务" />
+
+    <Button
+        android:id="@+id/btndind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动绑定的Service" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnlisdind"
+        android:text="取消绑定"/>
+
+</LinearLayout>

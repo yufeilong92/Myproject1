@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<ImageView
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:id="@+id/imageitem"
+    android:src="@drawable/b"/>
+    <TextView
+        android:id="@+id/tvbtn"
+        android:layout_toRightOf="@id/imageitem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ff2d2d"
+        android:textSize="15sp"
+        android:singleLine="true"
+        android:text="《咱们结婚吧》是由中央电视台、湖南广播电视台、湖南广播电视台卫视频道、北京华录百纳影视股份有限公司、北京完美蓬瑞影视文化有限公司联合摄制，中央电视台、湖南广播电视台、湖南广播电视台卫视频道、北京华录百纳影视股份有限公司"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageitem"
+        android:layout_below="@id/tvbtn"
+        android:maxLines="4"
+        android:ellipsize="end"
+        android:textColor="#272727"
+        android:text="北京完美蓬瑞影视文化有限公司、完美世界(北京)影视文化有限公司联合出品的当代都市情感大剧，由刘江导演，孟瑶编剧，黄海波、高圆圆等主演。该剧讲述的是一位黄金剩女与一位恐婚男之间，如何克服层层障碍，消除彼此心中困惑，战胜双方家长不满，最终有情人终成眷属的爱情故事。
+该剧2013年11月6日开播，CCTV1收视率1.72点、湖南卫视收视率1.71点。大结局在央一凭接近3点的数据获2013年年度收视冠军，在优酷等12家视频网站的总播放量也达到了40亿，创下2013年单剧网络点击纪录。[1-3]
+电影版《咱们结婚吧》于2015年4月2日上映。"
+        android:id="@+id/tv1"/>
+</RelativeLayout>
